@@ -1,1 +1,28 @@
-TERM	DEFINITION	TYPE	RANGECIEND	Confidence interval around END for imprecise variants	Integer	3 unique valuesTERM	DEFINITION	TYPE	RANGECIPOS	Confidence interval around POS for imprecise variants	Integer	3 unique valuesTERM	DEFINITION	TYPE	RANGECS	Source call set.	String	4 unique valuesTERM	DEFINITION	TYPE	RANGEEND	End coordinate of this variant	Integer	3 unique valuesTERM	DEFINITION	TYPE	RANGEIMPRECISE	Imprecise structural variation	Flag	No Values FoundTERM	DEFINITION	TYPE	RANGEMC	Merged calls.	String	No Values FoundTERM	DEFINITION	TYPE	RANGEMEINFO	Mobile element info of the form NAME	String	2 unique valuesTERM	DEFINITION	TYPE	RANGEMEND	Mitochondrial end coordinate of inserted sequence	Integer	No Values FoundTERM	DEFINITION	TYPE	RANGEMLEN	Estimated length of mitochondrial insert	Integer	No Values FoundTERM	DEFINITION	TYPE	RANGEMSTART	Mitochondrial start coordinate of inserted sequence	Integer	No Values FoundTERM	DEFINITION	TYPE	RANGESVLEN	SV length. It is only calculated for structural variation MEIs. For other types of SVs; one may calculate the SV length by INFO:END-START+1	Integer	2 unique valuesTERM	DEFINITION	TYPE	RANGESVTYPE	Type of structural variant	String	4 unique valuesTERM	DEFINITION	TYPE	RANGETSD	Precise Target Site Duplication for bases	String	2 unique valuesTERM	DEFINITION	TYPE	RANGEAC	Total number of alternate alleles in called genotypes	Integer	197 unique valuesTERM	DEFINITION	TYPE	RANGEAF	Estimated allele frequency in the range (0	Float	197 unique valuesTERM	DEFINITION	TYPE	RANGENS	Number of samples with data	Integer	1 unique valuesTERM	DEFINITION	TYPE	RANGEAN	Total number of alleles in called genotypes	Integer	1 unique valuesTERM	DEFINITION	TYPE	RANGEEAS_AF	Allele frequency in the EAS populations calculated from AC and AN	Float	80 unique valuesTERM	DEFINITION	TYPE	RANGEEUR_AF	Allele frequency in the EUR populations calculated from AC and AN	Float	88 unique valuesTERM	DEFINITION	TYPE	RANGEAFR_AF	Allele frequency in the AFR populations calculated from AC and AN	Float	129 unique valuesTERM	DEFINITION	TYPE	RANGEAMR_AF	Allele frequency in the AMR populations calculated from AC and AN	Float	73 unique valuesTERM	DEFINITION	TYPE	RANGESAS_AF	Allele frequency in the SAS populations calculated from AC and AN	Float	77 unique valuesTERM	DEFINITION	TYPE	RANGEDP	Total read depth; only low coverage data were counted towards the DP	Integer	2441 unique valuesTERM	DEFINITION	TYPE	RANGEAA	Ancestral Allele. Format: AA|REF|ALT|IndelType. AA: Ancestral allele	String	50 unique valuesTERM	DEFINITION	TYPE	RANGEVT	indicates what type of variant the line represents	String	4 unique valuesTERM	DEFINITION	TYPE	RANGEEX_TARGET	indicates whether a variant is within the exon pull down target boundaries	Flag	2 unique valuesTERM	DEFINITION	TYPE	RANGEMULTI_ALLELIC	indicates whether a site is multi-allelic	Flag	2 unique values
+TERM	DEFINITION	TYPE	RANGE
+CIEND	Confidence interval around END for imprecise variants	Integer	3 unique values
+CIPOS	Confidence interval around POS for imprecise variants	Integer	3 unique values
+CS	Source call set.	String	4 unique values
+END	End coordinate of this variant	Integer	3 unique values
+IMPRECISE	Imprecise structural variation	Flag	No Values Found
+MC	Merged calls.	String	No Values Found
+MEINFO	Mobile element info of the form NAME	String	2 unique values
+MEND	Mitochondrial end coordinate of inserted sequence	Integer	No Values Found
+MLEN	Estimated length of mitochondrial insert	Integer	No Values Found
+MSTART	Mitochondrial start coordinate of inserted sequence	Integer	No Values Found
+SVLEN	SV length. It is only calculated for structural variation MEIs. For other types of SVs; one may calculate the SV length by INFO:END-START+1	Integer	2 unique values
+SVTYPE	Type of structural variant	String	4 unique values
+TSD	Precise Target Site Duplication for bases	String	2 unique values
+AC	Total number of alternate alleles in called genotypes	Integer	197 unique values
+AF	Estimated allele frequency in the range (0	Float	197 unique values
+NS	Number of samples with data	Integer	1 unique values
+AN	Total number of alleles in called genotypes	Integer	1 unique values
+EAS_AF	Allele frequency in the EAS populations calculated from AC and AN	Float	80 unique values
+EUR_AF	Allele frequency in the EUR populations calculated from AC and AN	Float	88 unique values
+AFR_AF	Allele frequency in the AFR populations calculated from AC and AN	Float	129 unique values
+AMR_AF	Allele frequency in the AMR populations calculated from AC and AN	Float	73 unique values
+SAS_AF	Allele frequency in the SAS populations calculated from AC and AN	Float	77 unique values
+DP	Total read depth; only low coverage data were counted towards the DP	Integer	2441 unique values
+AA	Ancestral Allele. Format: AA|REF|ALT|IndelType. AA: Ancestral allele	String	50 unique values
+VT	indicates what type of variant the line represents	String	4 unique values
+EX_TARGET	indicates whether a variant is within the exon pull down target boundaries	Flag	2 unique values
+MULTI_ALLELIC	indicates whether a site is multi-allelic	Flag	2 unique values
